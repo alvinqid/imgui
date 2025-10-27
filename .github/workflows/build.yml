@@ -608,3 +608,9 @@ jobs:
       run: |
         cd examples/example_android_opengl3/android
         gradle assembleDebug --stacktrace
+
+    - name: Upload Beta APK
+      uses: actions/upload-artifact@v4.6.2
+      with:
+        name: ExampleImGuiAdnroid
+        path: examples/example_android_opengl3
