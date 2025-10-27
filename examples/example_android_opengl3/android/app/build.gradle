@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'imgui.example.android'
+    namespace 'com.example.imguidemo'
     compileSdk 36
 
     defaultConfig {
-        applicationId "imgui.example.android"
+        applicationId "com.example.imguidemo"
         minSdk 24
         targetSdk 36
         versionCode 1
